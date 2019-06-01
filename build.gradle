@@ -1,6 +1,14 @@
-plugins {
-    id 'java'
+
+ext {
+    libraries = [
+
+            lombok                    : "1.18.0",
+
+            logback                   : "1.2.3"
+    ]
 }
+
+apply plugin: 'java'
 
 group 'com.netdiscovery.janus'
 version '1.0-SNAPSHOT'
