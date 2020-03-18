@@ -1,5 +1,3 @@
 rootProject.name = 'janus'
 include 'core'
-include 'rpc'
-include 'registry'
 
