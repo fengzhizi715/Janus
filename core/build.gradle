@@ -21,4 +21,6 @@ dependencies {
     implementation "ch.qos.logback:logback-core:${libs.logback}"
     implementation "ch.qos.logback:logback-access:${libs.logback}"
     implementation "org.projectlombok:lombok:${libs.lombok}"
+
+    implementation "io.netty:netty-all:${libs.netty}"
 }

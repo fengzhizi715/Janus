@@ -4,7 +4,9 @@ ext {
 
             lombok                    : "1.18.0",
 
-            logback                   : "1.2.3"
+            logback                   : "1.2.3",
+
+            netty                     : "4.1.48.Final"
     ]
 }
 
